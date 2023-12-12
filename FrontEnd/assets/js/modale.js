@@ -156,6 +156,7 @@ function deleteWork(workId, updateGallery) {
       generateModalGallery();
     }
   })
+  
   .catch(error => console.error('Erreur lors de la suppression du work :', error));
 }
 
