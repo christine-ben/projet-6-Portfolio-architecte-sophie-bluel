@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     //  mettre à jour l'interface utilisateur.
     updateUI();
-
+    
     if (baliseLogin) {
         baliseLogin.addEventListener('click', EtatConnexion);
     }
